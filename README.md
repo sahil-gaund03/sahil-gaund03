@@ -1,5 +1,5 @@
 # 💫 About Me:
-’m an AI & ML engineering student with a growing <br>curiosity about Generative AI—how models learn patterns, <br>generate content, and support real-world decision-making
+Im an AI & ML engineering student with a growing <br>curiosity about Generative AI—how models learn patterns, <br>generate content, and support real-world decision-making
 
 
 ## 🌐 Socials:
