@@ -45,20 +45,6 @@ I am an aspiring **AI/ML Engineer** focused on building **production-grade machi
 
 Customer churn significantly impacts banking revenue. Traditional models fail to capture **behavioral engagement signals**, leading to weak retention strategies.
 
----
-
-### ⚙️ System Architecture
-
-```mermaid id="arch123"
-flowchart LR
-A[Raw Data] --> B[Data Preprocessing]
-B --> C[Feature Engineering]
-C --> D[Model Training]
-D --> E[Evaluation]
-E --> F[Deployment (Streamlit)]
-```
-
----
 
 ### 🧪 Methodology
 
