@@ -1,199 +1,140 @@
-[![NEXUS COSMOS Banner](https://github.com/sahil-gaund03/cosmos/raw/main/public/images/hero-earth.png)](https://github.com/sahil-gaund03/cosmos/blob/main/public/images/hero-earth.png)
+<div align="center">
 
-# ✦ NEXUS COSMOS
+# Sahil Gaund
 
-### *AI-Powered Space Intelligence Operating System*
-> *The universe, decoded.*
+### AI/ML Engineer in the making — building systems that predict, explain, and ship
 
-[![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![Gemini AI](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
-[![NASA API](https://img.shields.io/badge/NASA_API-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)](https://api.nasa.gov/)
+*BSc IT (1st year) · Dr. Homi Bhabha State University, Mumbai · Thane, Maharashtra*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub Stars](https://img.shields.io/github/stars/sahil-gaund03/cosmos?style=flat-square&color=gold)](https://github.com/sahil-gaund03/cosmos/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/sahil-gaund03/cosmos?style=flat-square&color=blue)](https://github.com/sahil-gaund03/cosmos/forks)
+[![Portfolio](https://img.shields.io/badge/Portfolio-sahilgaund0310.netlify.app-6C63FF?style=for-the-badge&logo=vercel&logoColor=white)](https://sahilgaund0310.netlify.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sahilgaund03-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahilgaund03)
+[![Email](https://img.shields.io/badge/Email-sahilgaund40%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilgaund40@gmail.com)
 
-**[🚀 Live Demo](https://nexus-cosmos.vercel.app/)** · **[📸 Screenshots](#-screenshots--gallery)** · **[📖 Docs](#-installation)** · **[🤝 Contribute](#-contributing)**
+</div>
 
 ---
 
-## 🌌 What is NEXUS COSMOS?
+## About
 
-**NEXUS COSMOS** is a full-stack space intelligence platform that fuses real-time NASA data streams, Gemini AI, and immersive 3D graphics into a single interface. It tracks the International Space Station in real time, renders the solar system in interactive 3D, retrieves live NASA imagery and space-weather data, and runs a Gemini-powered AI astronomy assistant — all in one cohesive UI.
+I build end-to-end ML and full-stack systems — not just notebooks. My work spans classical ML (ensemble models, drift detection, explainability), applied Generative AI (LLM-powered data tools, RAG-style assistants), and production deployment (FastAPI, Streamlit, Docker, Next.js).
 
-Built on **Next.js 16**, **React 19**, **Three.js**, and **Framer Motion**.
+I try to hold myself to one rule across every project below: **report what the model actually does, including where it doesn't work** — non-significant results, near-chance baselines, and honest limitations get documented, not hidden. If a README below claims a metric, that metric came from a real run.
 
----
-
-## ⚡ Feature Showcase
-
-**🤖 AI Astronomy Assistant**
-- Powered by Google Gemini (`@google/genai`), streamed Markdown responses via `react-markdown` + `remark-gfm`
-- JWT-secured API layer (`jose`) with input validation via `zod`
-- Custom system prompt tuned for space-science context
-
-**🪐 Interactive 3D Solar System**
-- Full `Three.js` scene via `@react-three/fiber` + `@react-three/drei`
-- Real planetary textures for all 8 planets, the Sun, and Saturn's rings
-- Post-processing bloom/lens effects via `@react-three/postprocessing`
-- Per-planet dossier HUD with orbital data
-
-**🛰️ Real-Time ISS Tracker**
-- Live ISS position, altitude, and orbital velocity telemetry
-- Interactive map via `Leaflet` + `react-leaflet`
-- Radar HUD overlay with animated telemetry readouts
-
-**🌠 NASA Media Gallery**
-- APOD (Astronomy Picture of the Day) hero display
-- Searchable gallery with HUD-style filters and full-screen lightbox
-
-**🚀 Launch Intelligence**
-- Upcoming/past launch tracking for SpaceX, NASA, ISRO, and more, with countdown timers and launch-pad mapping
-
-**🌩️ Space Weather Dashboard**
-- Solar flare classification (X/M/C class), geomagnetic storm indices, aurora forecast data
-
-**👩‍🚀 Astronaut Intelligence & 📅 Space Timeline**
-- Current ISS crew manifest and mission histories
-- Scrollable timeline of space milestones from Sputnik to Artemis
-
-**🎨 Design System**
-- Custom glass-morphism components (`GlassPanel`, `Badge`, `Button`, `TelemetryCard`)
-- Fully responsive, mobile-optimized navigation
-- Consistent design language across 9 platform modules
+**Currently deepening:** deep learning, NLP/Transformers, RAG pipelines, and AI agent architectures — the layer above classical ML I'm actively closing the gap on.
 
 ---
 
-## 🛠️ Tech Stack
+## Featured Projects
 
-**Frontend:** Next.js 16 · React 19 · TypeScript
-**3D/Graphics:** Three.js · @react-three/fiber · @react-three/drei · @react-three/postprocessing
-**APIs & Data:** Gemini API (`@google/genai`) · NASA APIs · Open Launch API · Where the ISS At
-**Styling/Animation:** Tailwind CSS 4 · Framer Motion 12 · clsx
-**Maps & Markdown:** Leaflet + react-leaflet · react-markdown + remark-gfm
-**Security:** jose (JWT) · zod (runtime validation)
+### 🛰️ NEXUS COSMOS — AI-Powered Space Intelligence Platform
+A full-stack space data platform: live ISS tracking, a Gemini-powered AI astronomy assistant, an interactive Three.js 3D solar system, real-time NASA imagery/space-weather feeds, and launch tracking across NASA/SpaceX/ISRO — all behind a JWT-secured API layer.
 
----
+`Next.js 16` `React 19` `TypeScript` `Three.js` `Framer Motion` `Gemini API` `Tailwind CSS 4` `Zod` `JWT`
 
-## 🗂️ Project Architecture
-
-```
-cosmos/
-├── public/
-│   ├── images/          # Planet and nebula reference images
-│   └── textures/planets/# Three.js UV texture maps
-├── scripts/
-│   └── download_textures.js
-└── src/
-    ├── app/              # Next.js App Router pages (home, ai-assistant,
-    │                     # solar-system, iss-tracker, nasa-gallery,
-    │                     # launches, space-weather, astronauts, timeline)
-    │   └── api/          # chat (Gemini proxy, JWT-secured) + auth routes
-    ├── components/       # ai, effects, gallery, home, launches, layout,
-    │                     # solar, tracking, ui, weather
-    ├── lib/
-    │   ├── security/     # jwt.ts, validation.ts
-    │   └── services/     # nasaService, solarService, launchService,
-    │                     # astronautService, spaceWeatherService, timelineService
-    └── middleware.ts     # Edge auth middleware
-```
+**[Repo →](https://github.com/sahil-gaund03/cosmos)**
 
 ---
 
-## 🚀 Installation
+### 🔮 Stitch — AI-Powered Data Intelligence SaaS
+A privacy-first, session-isolated data science platform: upload a CSV, get automated cleaning, EDA, Gemini-generated insights, an AutoML leaderboard (Random Forest / Logistic-Linear / Ridge / XGBoost), a chat-with-your-dataset interface backed by a pandas-resolver-then-LLM-fallback architecture, and a one-click PDF report — all without data ever leaving the session.
 
-### Prerequisites
-- Node.js ≥ 18.17, npm ≥ 9 (or pnpm/yarn)
-- A NASA API key (free at [api.nasa.gov](https://api.nasa.gov))
-- A Gemini API key (free at [aistudio.google.com](https://aistudio.google.com))
+`Python` `Streamlit` `Gemini 2.5 Flash` `scikit-learn` `XGBoost` `Plotly` `ReportLab` `FAISS`
 
-```bash
-git clone https://github.com/sahil-gaund03/cosmos.git
-cd cosmos
-npm install
-cp .env.example .env.local   # fill in your keys — see below
-npm run dev
-```
-
-Open **http://localhost:3000**.
-
-```bash
-npm run build   # production build
-npm start
-```
+**[Repo →](https://github.com/sahil-gaund03/ai-data-saas)** · **[Live Demo →](https://ai-data-saas-0310.streamlit.app/)**
 
 ---
 
-## 🔐 Environment Variables
+### ⚙️ FactoryGuard — Predictive Maintenance Risk Engine
+An industrial IoT risk-scoring system built on a dual-track design: unsupervised anomaly detection (Isolation Forest) paired with a calibrated supervised classifier, evaluated across 100k+ telemetry records from 50 simulated machines. Ships with a 10-page Streamlit dashboard and full SHAP-based explainability.
 
-Create `.env.local` (never commit this file):
+`Python` `scikit-learn` `XGBoost` `SHAP` `Streamlit` `FastAPI`
 
-```
-GEMINI_API_KEY=       # https://aistudio.google.com
-NASA_API_KEY=         # https://api.nasa.gov (DEMO_KEY works, rate-limited)
-JWT_SECRET=           # openssl rand -base64 32
-API_PASSWORD=         # used by the login route to issue JWT tokens
-```
-
-> All keys are consumed server-side only via Next.js API routes/middleware and never shipped to the browser. The Gemini chat endpoint is JWT-protected.
+*Adjacent research build: an adaptive predictive-maintenance pipeline adding **ADWIN/Page-Hinkley concept-drift detection**, asymmetric cost-sensitive ensemble learning, and **DiCE counterfactual explanations** on top of the SHAP layer — engineered to IEEE-submission documentation standards, including honest reporting of statistically non-significant results rather than cherry-picked wins.*
 
 ---
 
-## 📸 Screenshots & Gallery
+### 🏦 Bank Customer Churn Prediction
+A Random Forest classifier (83.3% accuracy, 85.3% ROC-AUC) for predicting customer churn, with SHAP explainability for per-customer risk reasoning, deployed as a Streamlit app and containerized with Docker.
 
-> _Add real screenshots here (e.g. `public/images/` or a `docs/screenshots/` folder) once captured from a live deployment — hero, AI assistant, solar system, ISS tracker, and NASA gallery views all make good candidates._
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Real-time 3D ISS orbit on the solar-system globe
-- [ ] Voice-enabled AI assistant
-- [ ] WebXR/VR solar system walkthrough
-- [ ] Deep-space object catalog (exoplanets, nebulae, star clusters)
-- [ ] Eclipse & transit predictor
-- [ ] Mission builder for custom interplanetary trajectories
-- [ ] Internationalization
-- [ ] Personal space dashboard (favorites, launch alerts)
-- [ ] PWA support
+`Python` `scikit-learn` `SHAP` `Streamlit` `Docker`
 
 ---
 
-## 🤝 Contributing
+### 🏥 HHS Care Transition Efficiency Dashboard
+An analytics dashboard built on real government healthcare pipeline data, surfacing care-transition efficiency metrics for health systems analysis.
 
-```bash
-git checkout -b feature/AmazingFeature
-git commit -m "feat: add real-time ISS 3D orbit overlay"
-git push origin feature/AmazingFeature
-# then open a Pull Request
-```
-
-Follow the existing TypeScript-strict / Tailwind-utility style, keep components focused, and test both desktop and mobile viewports.
+`Python` `Pandas` `Data Visualization`
 
 ---
 
-## 📄 License
+## Tech Stack
 
-MIT © 2026 Sahil Gaund — see [`LICENSE`](https://github.com/sahil-gaund03/cosmos/blob/main/LICENSE).
+**Languages**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+
+**ML / Data Science**
+![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/-XGBoost-006ACC?style=flat-square)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SHAP](https://img.shields.io/badge/-SHAP-8A2BE2?style=flat-square)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+**Applied AI / GenAI**
+![Gemini](https://img.shields.io/badge/-Gemini_API-8E75B2?style=flat-square&logo=google&logoColor=white)
+![FAISS](https://img.shields.io/badge/-FAISS-005571?style=flat-square)
+
+**Backend & Deployment**
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+**Tools**
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
 ---
 
-## 👨‍💻 Author
+## Currently Exploring
 
-**Sahil Gaund** — *Full-Stack Engineer · AI/ML Engineer in training*
+- Deep learning fundamentals & PyTorch
+- Transformers and NLP from first principles
+- RAG pipeline design (retrieval, chunking, grounding)
+- AI agent architectures and tool-use patterns
 
-[![GitHub](https://img.shields.io/badge/GitHub-sahil--gaund03-181717?style=for-the-badge&logo=github)](https://github.com/sahil-gaund03)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sahilgaund03-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sahilgaund03)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sahilgaund0310.netlify.app-black?style=for-the-badge&logo=vercel)](https://sahilgaund0310.netlify.app)
+## Engineering Principles
+
+- **Report the failure mode, not just the headline metric.** A model's ROC-AUC means nothing without knowing what happens when it's wrong.
+- **Ship something that runs**, not just a notebook — every ML project here has a deployed interface.
+- **Explainability is not optional.** If a model makes a decision, SHAP (or DiCE) explains why.
 
 ---
 
-### ✦ ALL SYSTEMS NOMINAL.
-*Built for explorers of the universe.*
+## GitHub Stats
 
-*© 2026 Sahil Gaund · MIT License*
+<div align="center">
+
+![Sahil's GitHub stats](https://github-readme-stats.vercel.app/api?username=sahil-gaund03&show_icons=true&theme=tokyonight&hide_border=true&count_private=false)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sahil-gaund03&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=sahil-gaund03&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+*Open to internships, research collaborations, and AI/ML engineering roles.*
+
+[![Portfolio](https://img.shields.io/badge/View_full_portfolio-sahilgaund0310.netlify.app-black?style=for-the-badge)](https://sahilgaund0310.netlify.app)
+
+</div>
